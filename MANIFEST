@@ -1,0 +1,14 @@
+lib/Acme/MetaSyntactic/Themes/Abigail.pm
+lib/Acme/MetaSyntactic/beatles.pm
+lib/Acme/MetaSyntactic/michelin.pm
+lib/Acme/MetaSyntactic/sodor.pm
+Makefile.PL
+MANIFEST
+t/000_basic.t
+t/100_metasyntactic.t
+t/950_pod.t
+t/960_pod_coverage.t
+Changes
+README
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
