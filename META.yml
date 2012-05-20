@@ -4,11 +4,13 @@ author:
   - 'Abigail <cpan@abigail.be>'
 build_requires:
   ExtUtils::MakeMaker: 0
+  Test::MetaSyntactic: 1
   Test::More: 0.88
   strict: 0
   warnings: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
+  Test::MetaSyntactic: 1
   Test::More: 0.88
   strict: 0
   warnings: 0
@@ -25,13 +27,15 @@ no_index:
     - t
     - inc
 requires:
+  Acme::MetaSyntactic: 1
   perl: 5.006
   strict: 0
   warnings: 0
 resources:
   repository: git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git
-version: 2012051701
+version: 2012052101
 x_test_requires:
+  Test::MetaSyntactic: 1
   Test::More: 0.88
   strict: 0
   warnings: 0
