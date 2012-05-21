@@ -28,12 +28,13 @@ no_index:
     - inc
 requires:
   Acme::MetaSyntactic: 1
+  Acme::MetaSyntactic::MultiList: 1
   perl: 5.006
   strict: 0
   warnings: 0
 resources:
   repository: git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git
-version: 2012052102
+version: 2012052201
 x_test_requires:
   Test::MetaSyntactic: 1
   Test::More: 0.88
