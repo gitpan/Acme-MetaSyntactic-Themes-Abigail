@@ -15,7 +15,7 @@ configure_requires:
   strict: 0
   warnings: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921'
 keywords: []
 license: mit
 meta-spec:
@@ -34,7 +34,7 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git
-version: 2012052202
+version: 2012053001
 x_test_requires:
   Test::MetaSyntactic: 1
   Test::More: 0.88
