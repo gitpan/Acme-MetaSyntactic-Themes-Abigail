@@ -4,7 +4,7 @@
       "Abigail <cpan@abigail.be>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
    "keywords" : [],
    "license" : [
       "mit"
@@ -23,31 +23,34 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0",
+            "ExtUtils::MakeMaker" : 0,
             "Test::MetaSyntactic" : "1",
             "Test::More" : "0.88",
-            "strict" : "0",
-            "warnings" : "0"
+            "strict" : 0,
+            "warnings" : 0
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0",
+            "ExtUtils::MakeMaker" : 0,
             "Test::MetaSyntactic" : "1",
             "Test::More" : "0.88",
-            "strict" : "0",
-            "warnings" : "0"
+            "strict" : 0,
+            "warnings" : 0
          }
       },
       "runtime" : {
+         "recommends" : {
+            "Lingua::EN::Numbers" : 0
+         },
          "requires" : {
             "Acme::MetaSyntactic" : "1",
             "Acme::MetaSyntactic::List" : "1",
             "Acme::MetaSyntactic::Locale" : "1",
             "Acme::MetaSyntactic::MultiList" : "1",
             "perl" : "5.006",
-            "strict" : "0",
-            "warnings" : "0"
+            "strict" : 0,
+            "warnings" : 0
          }
       }
    },
@@ -57,7 +60,7 @@
          "url" : "git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git"
       }
    },
-   "version" : "2013072602",
+   "version" : "2013072901",
    "x_test_requires" : {
       "Test::MetaSyntactic" : 1,
       "Test::More" : 0.88,
