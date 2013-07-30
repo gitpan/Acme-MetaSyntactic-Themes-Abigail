@@ -60,7 +60,7 @@
          "url" : "git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git"
       }
    },
-   "version" : "2013072902",
+   "version" : "2013073101",
    "x_test_requires" : {
       "Test::MetaSyntactic" : 1,
       "Test::More" : 0.88,
